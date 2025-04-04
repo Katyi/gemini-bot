@@ -7,9 +7,6 @@
   },
   "buildCommand": "npm install && npm run build",
   "outputDirectory": ".",
-  "engines": {
-    "node": ">=18.0.0"
-  },
   "routes": [
     {
       "src": "/",
