@@ -1,9 +1,15 @@
 {
   "version": 2,
   "build": {
-        "env": {
-          "NODE_ENV": "production"
-        }
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "deployHooks": [],
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": ".",
+  "engines": {
+    "node": ">=18.0.0"
   },
   "routes": [
     {
