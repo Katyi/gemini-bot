@@ -1,20 +1,14 @@
 {
   "version": 2,
   "build": {
-    "env": {
-      "NODE_ENV": "production"
-    }
-  },
-  "functions": {
-    "api/bot": { 
-      "handler": "bot.js",
-      "runtime": "nodejs20.x"
-    }
+        "env": {
+          "NODE_ENV": "production"
+        }
   },
   "routes": [
     {
-      "src": "/api/bot", 
-      "dest": "/api/bot"
+      "src": "/",
+      "dest": "bot.js"
     }
   ]
 }
