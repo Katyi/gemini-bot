@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node --env-file=.env bot.js",
     "watch": "tsc -w",
-    "dev": "node --env-file=.env --watch bot.js",
-    "build": "node_modules/.bin/tsc"
+    "dev": "node --env-file=.env --watch bot.js"
   },
   "keywords": [],
   "author": "",
